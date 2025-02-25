@@ -1,0 +1,17 @@
+numpy==1.24.3
+pandas==2.0.3
+hydra-core==1.3.2
+keras==3.1.1
+keras-cv==0.7.2
+matplotlib==3.8.3
+omegaconf==2.3.0
+opencv-python==4.9.0.80
+Pillow==10.0.0
+scikit-learn==1.2.2
+scipy==1.10.1
+seaborn==0.13.2
+spectral==0.23.1
+tensorflow==2.16.1
+image-classifiers==1.0.0
+classification-models-3D==1.1.0
+git+https://github.com/tirthasheshpatel/segment_anything_keras.git

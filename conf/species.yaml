@@ -1,0 +1,20 @@
+# Edit this file to add new species to the dataset.
+species:
+  "Alopecurus myosuroides": 0
+  "Alopecurus pratensis": 1
+  "Bistorta officinalis": 2
+  "Brassica napus": 3
+  "Galeopsis tetrahit": 4
+  "Geranium robertianum": 5
+  "Polygonum aviculare": 6
+  "Silene dioica": 7
+  "Stellaria media": 8
+  "Trifolium pratense": 9
+
+
+
+
+
+
+
+  

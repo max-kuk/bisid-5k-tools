@@ -1,0 +1,18 @@
+segmenter:
+  src_dir: raw_dataset
+  dst_dir: dataset_segmented
+
+tfrecords_dataset_builder:
+  src_dir: /mnt/data/paper_dataset_segmented    #dataset_segmented
+  dst_dir: preprocessed_data/tfrecords_dataset
+  num_samples: 500
+  num_workers: 1
+  saving_mode: per_num_samples
+
+spectroscopic_dataset_builder:
+  src_dir: /mnt/data/paper_dataset_segmented
+  dst_dir: preprocessed_data/spectroscopic_dataset
+
+defaults:
+  - _self_
+  - species
